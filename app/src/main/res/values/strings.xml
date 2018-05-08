@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">End Of The World Preparedness Quiz</string>
+    <string name="intro">Welcome to the End of the World Preparedness Quiz. \nThis quiz is designed to tell you how you might fair in the unexpected event that civilization as we know it begins to crumble around us, and the infrastructure we so sorely depend upon has become unreliable entirely.</string>
+
+    <string name="name">Enter Name</string>
+    <string name="enter">Enter</string>
+
+    <string name="q_one_exercise">1. Currently, how many days per week do you get in at least 1 hour of exercise?</string>
+    <string name="q1a1">0-1 days</string>
+    <string name="q1a2">2-4 days</string>
+    <string name="q1a3">5-7 days</string>
+
+    <string name="q_two_meals">2. How many full meals do you typically eat per day?</string>
+    <string name="q2a1">0-1 meals</string>
+    <string name="q2a2">2 meals</string>
+    <string name="q2a3">3+ meals</string>
+
+    <string name="q_three_chores">3. When going out to complete a mundane chore, how long does it typically take you to feel confident enough to leave your home?</string>
+    <string name="q3a1">15-30 min: I like to look presentable, but I\'m not out to impress</string>
+    <string name="q3a2">I\'m ready at a moments notice</string>
+    <string name="q3a3">31+ min: I never leave without looking and feeling my absolute best</string>
+
+    <string name="q_four_fire">4. If your home was on fire, and you could only save one of the following items, which would you choose?</string>
+    <string name="q4a1">Family photo album</string>
+    <string name="q4a2">4 one-pound bags of rice</string>
+    <string name="q4a3">Hunting knife</string>
+
+    <string name="q_five_water">5. You are thirsty and have no water on you to drink, which of the following would you drink from first?</string>
+    <string name="q5a1">A puddle</string>
+    <string name="q5a2">A pond</string>
+    <string name="q5a3">A stream</string>
+
+    <string name="q_six_bear">6. You are walking through the woods, and you come upon an injured baby bear. Do you:</string>
+    <string name="q6a1">Tend to it\'s wounds?</string>
+    <string name="q6a2">Go back the opposite direction - not my bear not my problem?</string>
+    <string name="q6a3">Try to kill it for food</string>
+
+    <string name="q_seven_trust">7. A friend you haven\'t seen in a while calls you and asks to borrow money and says you will be paid back in a week. You don\'t have a lot to spare, but you could satisfy his request. What do you do?</string>
+    <string name="q7a1">I trust this person. I\'ll loan the money</string>
+    <string name="q7a2">Not my problem - I\'m not loaning them a single dollar</string>
+    <string name="q7a3">I\'ll loan some money but not all, and I\'m charging interest</string>
+
+    <string name="q_eight_trust">8. What of the following items are in your car right now? (Select all that apply)</string>
+    <string name="q8a1">Litter</string>
+    <string name="q8a2">Small set of tools</string>
+    <string name="q8a3">Gum</string>
+    <string name="q8a4">Extra clothes</string>
+
+
+    <string name="submit">SUBMIT</string>
+
+    <string name="low_score">Look, I know tending to a baby bear\'s wounds might seem like the right thing to do, but in the apocalypse, the number one priority is SURVIVAL, and dealing with bears of any sort is just not a good idea. You need to workout, stop eating so much, and prioritize a little better! A family photo album?! In the apocalypse? Bring the rice, dum-dum! (score higher to find out why!)</string>
+    <string name="med_score">You\'ll do alright for a while, that is until your common sense is defeated by your desperation. You may be very fit, or can control your appetite, but you should know better to trust the folks of the apocalypse, especially when your needs are the same! Hopefully you\'ll at least grab the rice when your house burns. (score higher to find out why!)</string>
+    <string name="high_score">Man, nothing is going to stop you! Until.. you know... something does. Something gets all of us, eventually, doesn\'t it? But you seem fit, and filled with knowledge. You probably grabbed the rice, and I think that\'s just great. Not everyone grabs the rice, and those people who don't, do not fare well. But you did. You grabbed the rice (score higher to find out why!)</string>
+    <string name="highest_score">You should be teaching classes on survival. Your priorities are always in the right place. I will follow you in the apocalypse, and so will everyone you come across. Without you, they\'d be grabbing the knife, or photo album, but with you leading them...us... we will always grab the rice. Always...Grab...The...Rice. (Score higher to find out why!)</string>
+
+
+
+</resources>
