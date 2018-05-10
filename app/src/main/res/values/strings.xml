@@ -46,6 +46,7 @@
     <string name="q8a3">Gum</string>
     <string name="q8a4">Extra clothes</string>
 
+    <string name ="q_nine_blind">You are in the kitchen with a bear. For some reason, the only way you can escape is by blinding it. How do you do it?</string>
 
     <string name="submit">SUBMIT</string>
 
@@ -53,7 +54,9 @@
     <string name="med_score">You\'ll do alright for a while, that is until your common sense is defeated by your desperation. You may be very fit, or can control your appetite, but you should know better to trust the folks of the apocalypse, especially when your needs are the same! Hopefully you\'ll at least grab the rice when your house burns. (score higher to find out why!)</string>
     <string name="high_score">Man, nothing is going to stop you! Until.. you know... something does. Something gets all of us, eventually, doesn\'t it? But you seem fit, and filled with knowledge. You probably grabbed the rice, and I think that\'s just great. Not everyone grabs the rice, and those people who don't, do not fare well. But you did. You grabbed the rice (score higher to find out why!)</string>
     <string name="highest_score">You should be teaching classes on survival. Your priorities are always in the right place. I will follow you in the apocalypse, and so will everyone you come across. Without you, they\'d be grabbing the knife, or photo album, but with you leading them...us... we will always grab the rice. Always...Grab...The...Rice. (Score higher to find out why!)</string>
+    <string name="legend_score">There is no advice I can offer you. And since we\'re on the subject, can you please... like... give ME some advice? I just... I don\'t know... Need some guidance. You seem like you have it all figured out. Just think about it, will you? I uhh.. I\'m desperate here.</string>
 
+    <string name="answer">What\'s your answer, DUDE?</string>
 
 
 </resources>

@@ -60,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     public int counter(View view) {
-        boolean qOne = ((RadioButton) view).isChecked();
-        if (qOne) {
+        boolean correctAnswer = ((RadioButton) view).isChecked();
+        if (correctAnswer) {
             return 1;
         } else {
             return 0;
@@ -73,27 +73,27 @@ public class MainActivity extends AppCompatActivity {
     /
     */
 
-    public int counterOne(View view) {
-        boolean qco = ((CheckBox) view).isChecked();
-        if (qco) {
+    public int veryRightCounter(View view) {
+        boolean checkboxVeryRight = ((CheckBox) view).isChecked();
+        if (checkboxVeryRight) {
             return 2;
         } else {
             return 0;
         }
     }
 
-    public int counterTwo(View view) {
-        boolean qct = ((CheckBox) view).isChecked();
-        if (qct) {
+    public int veryWrongCounter(View view) {
+        boolean checkboxVeryWrong = ((CheckBox) view).isChecked();
+        if (checkboxVeryWrong) {
             return -2;
         } else {
             return 0;
         }
     }
 
-    public int counterThree(View view) {
-        boolean qcth = ((CheckBox) view).isChecked();
-        if (qcth) {
+    public int rightCounter(View view) {
+        boolean checkboxRight = ((CheckBox) view).isChecked();
+        if (checkboxRight) {
             return 1;
         } else {
             return 0;
@@ -114,16 +114,26 @@ public class MainActivity extends AppCompatActivity {
         View summary = findViewById(R.id.summary);
         makeVisibleSummary(summary);
 
+
+
         survivorScore = counter(findViewById(R.id.q1a3)) + counter(findViewById(R.id.q2a1));
         survivorScore = survivorScore + counter(findViewById(R.id.q3a2));
         survivorScore = survivorScore + counter(findViewById(R.id.q4a2));
         survivorScore = survivorScore + counter(findViewById(R.id.q5a3));
         survivorScore = survivorScore + counter(findViewById(R.id.q6a2));
         survivorScore = survivorScore + counter(findViewById(R.id.q7a2));
-        survivorScore = survivorScore + counterTwo(findViewById(R.id.q8a1));
-        survivorScore = survivorScore + counterOne(findViewById(R.id.q8a2));
-        survivorScore = survivorScore + counterThree(findViewById(R.id.q8a3));
-        survivorScore = survivorScore + counterOne(findViewById(R.id.q8a4));
+        survivorScore = survivorScore + veryWrongCounter(findViewById(R.id.q8a1));
+        survivorScore = survivorScore + veryRightCounter(findViewById(R.id.q8a2));
+        survivorScore = survivorScore + rightCounter(findViewById(R.id.q8a3));
+        survivorScore = survivorScore + veryRightCounter(findViewById(R.id.q8a4));
+
+        EditText questionNine = findViewById(R.id.questionNineAnswer);
+        String questionNineAnswer = questionNine.getText().toString();
+        if(questionNineAnswer.contains("rice")) {
+            survivorScore = survivorScore + 100;
+
+        }
+
         Log.v("MainActivity", "survivor score: " + survivorScore);
         displayMessage(createSummary(survivorScore));
         displayProclaim(createProclaim());
@@ -155,6 +165,10 @@ public class MainActivity extends AppCompatActivity {
         }
         if (survivorScore == 12) {
             outcome = "You will rise above the rest, ";
+        }
+
+        if (survivorScore >= 13) {
+            outcome = "You are a legend, ";
         }
         return outcome + userName;
     }
@@ -190,6 +204,9 @@ public class MainActivity extends AppCompatActivity {
         }
         if (survivorScore == 12) {
             survivorSummary = getString(R.string.highest_score);
+        }
+        if (survivorScore >= 13) {
+            survivorSummary = getString(R.string.legend_score);
         }
         return survivorSummary;
     }
